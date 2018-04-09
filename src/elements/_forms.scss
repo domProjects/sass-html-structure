@@ -3,7 +3,9 @@
 //
 
 form {
+	&:invalid {
 
+	}
 }
 
 button {
@@ -19,6 +21,65 @@ fieldset {
 }
 
 input {
+	&:checked {
+
+	}
+
+	&:disabled {
+
+	}
+
+	&:enabled {
+
+	}
+
+	&:focus {
+
+	}
+
+	&:indeterminate {
+
+	}
+
+	&:invalid {
+
+	}
+
+	&:valid {
+
+	}
+
+	&:optional {
+
+	}
+
+	&:required {
+
+	}
+
+	&:in-range {
+
+	}
+
+	&:out-of-range {
+
+	}
+
+	&:-moz-read-only {
+
+	}
+
+	&:read-only {
+
+	}
+
+	&:-moz-read-write {
+
+	}
+
+	&:read-write {
+
+	}
 
 	&[type="hidden"] {
 		
