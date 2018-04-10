@@ -45,7 +45,13 @@ hr {
 }
 
 p {
+	&::first-letter {
 
+	}
+
+	&::first-line {
+
+	}
 }
 
 pre {
