@@ -9,7 +9,13 @@ form {
 }
 
 button {
+	&::-moz-focus-inner {
 
+	}
+
+	&:-moz-focusring {
+
+	}
 }
 
 datalist {
@@ -81,92 +87,266 @@ input {
 
 	}
 
+	&::-moz-focus-inner {
+
+	}
+
+	&::-webkit-input-placeholder {
+
+	}
+
+	&::-moz-placeholder {
+
+	}
+
+	&:-ms-input-placeholder {
+
+	}
+
+	&::-webkit-validation-bubble {
+
+	}
+
+	&::-webkit-validation-bubble-arrow {
+
+	}
+
+	&::-webkit-validation-bubble-arrow-clipper {
+
+	}
+
+	&::-webkit-validation-bubble-heading {
+
+	}
+
+	&::-webkit-validation-bubble-message {
+
+	}
+
+	&::-webkit-validation-bubble-text-block {
+
+	}
+
 	&[type="hidden"] {
-		
+
 	}
 
 	&[type="text"] {
-		
+		&::-ms-clear {
+
+		}
+
+		&::-ms-value {
+
+		}
 	}
 
 	&[type="search"] {
-		
+		&::-webkit-search-decoration {
+
+		}
+
+		&::-webkit-search-cancel-button {
+
+		}
+
+		&::-webkit-search-results-button {
+
+		}
 	}
 
 	&[type="tel"] {
-		
+
 	}
 
 	&[type="url"] {
-		
+
 	}
 
 	&[type="email"] {
-		
+
 	}
 
 	&[type="password"] {
-		
+		&::-ms-reveal {
+
+		}
 	}
 
 	&[type="date"] {
-		
+		&::-webkit-datetime-edit {
+
+		}
+
+		&::-webkit-datetime-edit-fields-wrapper {
+
+		}
+
+		&::-webkit-datetime-edit-text {
+
+		}
+
+		&::-webkit-datetime-edit-month-field {
+
+		}
+
+		&::-webkit-datetime-edit-day-field {
+
+		}
+
+		&::-webkit-datetime-edit-year-field {
+
+		}
+
+		&::-webkit-inner-spin-button {
+
+		}
+
+		&::-webkit-calendar-picker-indicator {
+
+		}
 	}
 
 	&[type="datetime-local"] {
-		
+
 	}
 
 	&[type="month"] {
-		
+
 	}
 
 	&[type="week"] {
-		
+
 	}
 
 	&[type="time"] {
-		
+
 	}
 
 	&[type="number"] {
-		
+		&::-webkit-textfield-decoration-container {
+
+		}
+
+		&::-webkit-inner-spin-button {
+
+		}
+
+		&::-webkit-outer-spin-button {
+
+		}
 	}
 
 	&[type="range"] {
-		
+		&::-webkit-slider-runnable-track {
+
+		}
+
+		&::-webkit-slider-thumb {
+			&:hover {
+
+			}
+		}
+
+		&::-moz-range-track {
+
+		}
+
+		&::-moz-range-thumb {
+
+		}
+
+		&::-ms-fill-lower {
+
+		}
+
+		&::-ms-fill-upper {
+
+		}
+
+		&::-ms-thumb {
+			&:hover {
+
+			}
+		}
+
+		&::-ms-ticks-after {
+
+		}
+
+		&::-ms-ticks-before {
+
+		}
+
+		&::-ms-track {
+
+		}
+
+		&::-ms-tooltip {
+
+		}
 	}
 
 	&[type="color"] {
-		
+		&::-webkit-color-swatch {
+
+		}
+
+		&::-webkit-color-swatch-wrapper {
+
+		}
 	}
 
 	&[type="checkbox"] {
-		
+
 	}
 
 	&[type="radio"] {
-		
+
 	}
 
 	&[type="file"] {
-		
+		&::-webkit-file-upload-button {
+
+		}
+
+		&::-ms-browse {
+
+		}
 	}
 
 	&[type="submit"] {
-		
+		&::-moz-focus-inner {
+
+		}
+
+		&:-moz-focusring {
+
+		}
 	}
 
 	&[type="image"] {
-		
+
 	}
 
 	&[type="reset"] {
-		
+		&::-moz-focus-inner {
+
+		}
+
+		&:-moz-focusring {
+
+		}
 	}
 
 	&[type="button"] {
-		
+		&::-moz-focus-inner {
+
+		}
+
+		&:-moz-focusring {
+
+		}
 	}
 }
 
@@ -179,7 +359,41 @@ legend {
 }
 
 meter {
+	&::-webkit-meter-bar {
 
+	}
+
+	&::-webkit-meter-inner-element {
+
+	}
+
+	&::-webkit-meter-optimum-value {
+
+	}
+
+	&::-webkit-meter-suboptimum-value {
+
+	}
+
+	&::-webkit-meter-even-less-good-value {
+
+	}
+
+	&::-moz-meter-bar {
+
+	}
+
+	&:-moz-meter-optimum::-moz-meter-bar {
+
+	}
+
+	&:-moz-meter-sub-optimum::-moz-meter-bar {
+
+	}
+
+	&:-moz-meter-sub-sub-optimum::-moz-meter-bar {
+
+	}
 }
 
 optgroup {
@@ -195,13 +409,39 @@ output {
 }
 
 progress {
+	&:not([value]) {
 
+	}
+
+	&::-webkit-progress-bar {
+
+	}
+
+	&::-webkit-progress-value {
+
+	}
+
+	&::-webkit-progress-inner-element {
+
+	}
+
+	&::-moz-progress-bar {
+
+	}
+
+	&::-ms-fill {
+
+	}
 }
 
 select {
+	&::-ms-expand {
 
+	}
 }
 
 textarea {
+	&::-webkit-resizer {
 
+	}
 }
